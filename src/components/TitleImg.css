@@ -1,0 +1,21 @@
+.TitleImg img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    margin-top: 75px;
+    margin-left: 300px;
+
+  animation: slideInRight 1s ease-out;
+}
+@keyframes slideInRight {
+    from {
+      transform: translateX(35%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  

@@ -1,0 +1,36 @@
+.Title{
+    display: inline-block;
+    
+    /* height: 350px;
+    width: 400px; */
+    font-size: 2.0rem;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+.Title h1{
+    margin-top: 25px;
+    color:  #5c5470;
+
+}
+.Title h5{
+  color:#352f44;
+}
+@keyframes slideInbottom {
+    from {
+      transform: translateY(70%);
+      opacity: 0;
+    }
+    to {
+      transform: translatey(0);
+      opacity: 1;
+    }
+  }
+  .Title h1{
+    display: inline-block;
+    animation: slideInbottom 1.5s ease-out
+  }
+  .Title h3{
+    display: inline-block;
+    animation: slideInbottom 1s ease-out
+
+  }

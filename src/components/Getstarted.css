@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.Getstarted{
+    height: auto;
+    font-size: 1.5rem;
+}
+.heading{
+    margin-left: 300px;
+    color:#005689;
+    
+  font-family: "Poppins", sans-serif;
+}
+.heading :first-child{
+    color: #352f44;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.step1{
+    
+    background-image: url(/assets/step1bg.svg);
+    background-repeat: no-repeat;
+    
+    margin-left: 50px;
+    padding:100px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.step1content{
+   
+    justify-content: left;
+}
+.step1img{
+    justify-content: right;
+    margin-left: 500px;
+}
+.step2{
+    background-image: url(/assets/step2bg.svg);
+    background-repeat: no-repeat;
+   background-position: right;
+    padding:100px;
+    
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+.step2content{
+    
+    
+   
+    justify-content: right;
+    margin-left: 125px;
+}
+.step2img{
+    justify-content: left;
+}
+.step3{
+    
+    background-image: url(/assets/step3bg.svg);
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    
+    padding:100px;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+
+}
+.step3content{
+   
+    justify-content: left;
+}
+.step3img{
+    
+    
+    justify-content: right;
+    margin-left: 500px;
+}

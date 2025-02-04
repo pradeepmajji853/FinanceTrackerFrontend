@@ -1,0 +1,29 @@
+.GScontent{
+    height: auto;
+    width: 350px;
+    gap: 10px;
+}
+.GSpoints{
+    list-style-type: disc; 
+    margin-left: 20px;
+    padding-left: 20px; 
+    padding-right: 0; 
+}
+.GSpoints li{
+    
+    margin-bottom: 5px;
+}
+.slideinbottom{
+    animation: slide-in-bottom 1s ease-in;
+}
+@keyframes slide-in-bottom {
+    from{
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+}

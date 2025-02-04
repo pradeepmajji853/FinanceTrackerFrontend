@@ -1,0 +1,62 @@
+.CashWallet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .CWcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 150px; 
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    background-color: white;
+  }
+  
+  .CWcard:hover {
+    transform: scale(1.15);
+  }
+  
+  .CWicon {
+    margin-right: 20px;
+  }
+  
+  .CWcontent h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .CWcontent h3 {
+    margin: 5px 0;
+    font-size: 18px;
+  }
+  
+  .TL {
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .TL table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .TL th,
+  .TL td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .TL th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  

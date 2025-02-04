@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="228" height="341" viewBox="0 0 228 341">
+                                <linearGradient id="nuber-2" x1="-189.7" x2="-189.7" y1="566.2" y2="565.5" gradientTransform="matrix(227.4268 0 0 -340.3369 43247.5 192746.7)" gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#eff2f6"></stop>
+                                    <stop offset="1" stop-color="#fff"></stop>
+                                </linearGradient>
+                                <path fill="url(#nuber-2)" d="M227.4 341H0v-40.8l86.5-87c25.6-26.2 42.5-44.7 50.8-55.7s14.4-21.2 18.2-30.9c3.8-9.6 5.7-20 5.7-31 0-15.1-4.6-27.1-13.7-35.8a52.5 52.5 0 0 0-37.8-13.1c-12.9 0-25.3 2.4-37.3 7.1S46.8 67.2 31 79.6L1.9 44c18.7-15.8 36.8-26.9 54.4-33.5S92.6.6 112.5.6c31.2 0 56.2 8.1 75 24.4s28.2 38.2 28.2 65.7c0 15.1-2.7 29.5-8.1 43.1s-13.8 27.7-25 42.1-29.9 34-56.1 58.6L68.2 291v2.3h159.3V341z"></path>
+                            </svg>

@@ -1,0 +1,72 @@
+.Dashboard {
+    display: flex;
+    overflow-y: hidden;
+    background-image: url(assets/dashboardbg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  
+  .MainContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .DashboardNav {
+    background-color: white;
+    height: 75px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .DashboardNav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .DashboardNav ul li {
+    list-style: none;
+  }
+  
+  .DashboardNav ul li a {
+    text-decoration: none;
+    color: #757575;
+    font-size: 18px;
+    padding: 10px 20px;
+    position: relative;
+  }
+  
+  .DashboardNav ul li a.active {
+    color: #00c27b;
+  }
+  
+  .DashboardNav ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #00c27b;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .DashboardNav ul li a.active::after {
+    width: 100%;
+  }
+  
+  .Content {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+  }
+  

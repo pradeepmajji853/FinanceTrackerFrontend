@@ -1,0 +1,24 @@
+.Cardbox{
+    padding:25px;
+    width: 750px;
+    display: flex;
+    gap: 10px;
+
+}
+.Cardboxright{
+  padding-top: 75px;
+}
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+.slideInLeft{
+  animation: slide-in-left 1s ease-in;
+ 
+}

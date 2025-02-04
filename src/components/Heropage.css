@@ -1,0 +1,8 @@
+.Heropage{
+    height: 725px;
+    background-image:url(https://dynamics.folio3.com/blog/wp-content/uploads/2021/04/Financial-Management.png);
+    object-fit: cover;
+}
+.TitleBox{
+    display: flex;
+}

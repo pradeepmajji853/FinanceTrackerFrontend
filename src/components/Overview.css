@@ -1,0 +1,24 @@
+.Overview {
+    display: flex;
+}
+
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px; 
+    background-color: #f8f9fa; 
+    z-index: 1000; 
+ overflow-y: hidden;
+}
+
+.content-container {
+    margin-left: 250px; 
+    padding: 20px;
+    width: calc(100% - 250px); 
+}
+
+.chart-container {
+    width: 100%;
+}

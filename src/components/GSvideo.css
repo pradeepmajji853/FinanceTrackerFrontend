@@ -1,0 +1,9 @@
+/* GSvideo.css */
+.GSvideo video {
+    width: 750px;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+  }
+  
